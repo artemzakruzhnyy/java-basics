@@ -14,5 +14,13 @@ public class Main {
 
         kuzma.say();
         kuzia.say();
+
+        PrimitiveTypeExamples primitiveTypeExamples = new PrimitiveTypeExamples();
+        primitiveTypeExamples.primitiveTypesShow();
+
+        //значения по умолчанию
+        System.out.println("Age: " + timofei.getAge());
+        System.out.println("Weigh: " + timofei.getWeigh());
+        System.out.println("Short name: " + timofei.getShortName());
     }
 }
