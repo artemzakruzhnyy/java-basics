@@ -1,4 +1,4 @@
-package org.example.zakruzhny;
+package org.example.zakruzhny.modele;
 
 public class Cat {
 

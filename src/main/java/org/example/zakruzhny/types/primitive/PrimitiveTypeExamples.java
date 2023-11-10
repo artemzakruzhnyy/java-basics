@@ -1,4 +1,4 @@
-package org.example.zakruzhny;
+package org.example.zakruzhny.types.primitive;
 
 public class PrimitiveTypeExamples {
 
