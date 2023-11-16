@@ -5,12 +5,15 @@ public class Transport {
     private String type;
     private int year;
 
+    public Transport() {
+    }
+
     public Transport(double speed){
         this.speed = speed;
     }
 
-    void startEngine(){
-        System.out.println("Мотор завелся!");
+    public void startEngine(){
+        System.out.println("Transport: Мотор завелся!");
     }
 
     public double getSpeed() {
