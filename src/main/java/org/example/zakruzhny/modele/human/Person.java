@@ -1,4 +1,4 @@
-package org.example.zakruzhny.modele;
+package org.example.zakruzhny.modele.human;
 
 public class Person {
 
