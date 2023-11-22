@@ -54,6 +54,21 @@ public class Car extends Transport {
 
     public void setOilLevel(int oilLevel) {
         this.oilLevel = oilLevel;
+    }
 
+    public void printTypeCar() {
+        /*switch ((int) getSpeed()) {
+            case 250 -> System.out.println("");
+            case 40 -> System.out.println("Машина детская!!!");
+            default -> System.out.println("Машина обычная");
+        }*/
+
+        if (getSpeed() > 250) {
+            System.out.println("Машина спортивная!!!");
+        } else if (getSpeed() < 40) {
+            System.out.println("Машина детская!!!");
+        } else {
+            System.out.println("Машина обычная");
+        }
     }
 }
