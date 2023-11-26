@@ -71,4 +71,32 @@ public class Car extends Transport {
             System.out.println("Машина обычная");
         }
     }
+
+
+    public void run() {
+        int initSpeed = 0;
+
+        while (initSpeed < 120) {
+            System.out.println("Машина все езе разгоняется...");
+            initSpeed += 10;
+        }
+        System.out.println("Машина разогналась!!!!");
+
+        do {
+            System.out.println("Машина все езе разгоняется...");
+            initSpeed += 10;
+        }
+        while (initSpeed < 120);
+        System.out.println("Машина разогналась!!!!");
+
+        int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+        for (int i : array) {
+            System.out.println("Елемент " + i);
+        }
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("Елемент " + array[i]);
+        }
+    }
 }
