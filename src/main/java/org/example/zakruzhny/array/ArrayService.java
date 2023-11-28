@@ -1,7 +1,5 @@
 package org.example.zakruzhny.array;
 
-import org.example.zakruzhny.modele.transport.Car;
-
 import java.util.Arrays;
 
 public class ArrayService {
@@ -12,12 +10,12 @@ public class ArrayService {
         array1[4] = 123;
 
         for (int i=0; i<array1.length+10; i++){
-            //System.out.println(array1[i]);
+            System.out.println(array1[i]);
         }
 
         int[] array2 = {10, 2, 3, 5, -1};
         for (int i: array2){
-            //System.out.println(i);
+            System.out.println(i);
         }
 
         int[][] matrix = {{1,13}, {34,45,-100}};
