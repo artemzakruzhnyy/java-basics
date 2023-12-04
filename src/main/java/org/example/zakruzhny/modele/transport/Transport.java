@@ -20,7 +20,6 @@ public class Transport {
     }
 
     public void startEngine(){
-        counter++;
         System.out.println("Transport: Мотор завелся!");
     }
 
