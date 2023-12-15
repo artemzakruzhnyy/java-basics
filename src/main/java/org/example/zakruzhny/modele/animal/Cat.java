@@ -7,6 +7,25 @@ public class Cat {
 
     private char shortName;
 
+    public Cat(int age) {
+        this.age = age;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Cat cat = (Cat) o;
+
+        return age == cat.age;
+    }
+
+    @Override
+    public int hashCode() {
+        return age;
+    }
+
     public void say(){
         System.out.println("May");
     }
